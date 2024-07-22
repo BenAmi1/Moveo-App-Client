@@ -1,0 +1,20 @@
+.code-editor {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    height: 400px; 
+  }
+  
+  .syntax-highlighter {
+    border-radius: 4px;
+    padding: 10px;
+    background: #f5f5f5; 
+    overflow-x: auto;
+    white-space: pre;
+    font-size: 14px; 
+  }
+
+.CodeMirror[contenteditable="false"] .CodeMirror-cursors {
+    visibility: hidden !important;
+  }
